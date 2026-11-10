@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy · dsh-email</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 720px; margin: 0 auto; padding: 64px 24px;
+         font: 16px/1.75 -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+  h1 { font-size: 1.75rem; margin: 0 0 6px; letter-spacing: -0.02em; }
+  .updated { color: #6b7280; margin: 0 0 40px; font-size: .9rem; }
+  h2 { font-size: 1.05rem; margin: 34px 0 8px; }
+  ul { padding-left: 1.25em; }
+  li { margin: 6px 0; }
+  code { background: rgba(127,127,127,.15); padding: 1px 6px; border-radius: 4px; font-size: .9em; }
+  footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid rgba(127,127,127,.25); color: #6b7280; font-size: .875rem; }
+</style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="updated">dsh-email · Last updated: 11 November 2026</p>
+
+  <h2>1. Who this applies to</h2>
+  <p>
+    <code>dsh-email</code> is a private, single-user desktop tool. The only person whose data it touches is
+    the person who installed it and authorized it — the account owner. There are no other users, no accounts
+    to register, and no service operated on behalf of anyone else.
+  </p>
+
+  <h2>2. What data is accessed</h2>
+  <ul>
+    <li>Email messages in the owner's own Gmail mailbox (read via IMAP).</li>
+    <li>The ability to send email from the owner's own Gmail address (via the Gmail API).</li>
+    <li>OAuth credentials issued by Google for the scope <code>https://mail.google.com/</code>.</li>
+  </ul>
+
+  <h2>3. Where data is stored</h2>
+  <p>
+    Everything stays on the owner's computer. OAuth tokens are written to a local file on that machine.
+    Message content is processed in memory on that machine. No data is uploaded to any server operated by
+    the author of this tool, and no analytics, telemetry or crash reporting is collected.
+  </p>
+
+  <h2>4. What is never done</h2>
+  <ul>
+    <li>No email content is sold, shared, published or transferred to third parties.</li>
+    <li>No email content is used to train machine-learning models.</li>
+    <li>No advertising, profiling or tracking of any kind.</li>
+    <li>No access to any Google account other than the one that explicitly granted consent.</li>
+  </ul>
+
+  <h2>5. Third parties</h2>
+  <p>
+    The only external service contacted is Google's own API infrastructure (Gmail API, OAuth 2.0 endpoints),
+    strictly to perform the operations the owner requested. Google's own privacy policy applies to that
+    traffic.
+  </p>
+
+  <h2>6. Revoking access</h2>
+  <p>
+    The owner can revoke this application's access at any time at
+    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, or by deleting
+    the local token file. Revocation takes effect immediately and no further requests will succeed.
+  </p>
+
+  <h2>7. Data retention and deletion</h2>
+  <p>
+    Local token files can be deleted at any time by the owner; doing so removes all credentials this tool
+    holds. No copy exists anywhere else.
+  </p>
+
+  <h2>8. Children</h2>
+  <p>This tool is not directed at children and processes no data belonging to anyone but its owner.</p>
+
+  <h2>9. Changes</h2>
+  <p>
+    If this policy changes, the updated version will be published at this URL with a new "last updated"
+    date.
+  </p>
+
+  <h2>10. Contact</h2>
+  <p>Questions: <a href="mailto:syt2094949875@gmail.com">syt2094949875@gmail.com</a></p>
+
+  <footer><a href="./index.html">← Back to dsh-email</a></footer>
+</body>
+</html>

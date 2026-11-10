@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>dsh-email</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 720px; margin: 0 auto; padding: 64px 24px;
+         font: 16px/1.75 -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+  h1 { font-size: 2rem; margin: 0 0 8px; letter-spacing: -0.02em; }
+  .tag { color: #6b7280; margin: 0 0 40px; }
+  h2 { font-size: 1.05rem; margin: 36px 0 8px; }
+  a { color: #2563eb; }
+  code { background: rgba(127,127,127,.15); padding: 1px 6px; border-radius: 4px; font-size: .9em; }
+  footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid rgba(127,127,127,.25); color: #6b7280; font-size: .875rem; }
+</style>
+</head>
+<body>
+  <h1>dsh-email</h1>
+  <p class="tag">A personal mail client for a DSH desktop agent · 个人邮件客户端</p>
+
+  <h2>What it is · 这是什么</h2>
+  <p>
+    <code>dsh-email</code> is a local, single-user email integration that lets its owner read and send
+    mail from their own Gmail account inside a private desktop agent. It is not a public service and has
+    no other users.
+  </p>
+  <p>
+    它是一个本地运行、仅供本人使用的邮件集成：在自己的私人桌面助手里收发自己的 Gmail 邮件。
+    它不是对外提供的服务，也没有其他用户。
+  </p>
+
+  <h2>Data · 数据处理</h2>
+  <p>
+    All data stays on the owner's machine. OAuth tokens are stored in a local file; nothing is sent to
+    a third-party server. The only network destinations are Google's own APIs.
+  </p>
+  <p>
+    所有数据都留在本人电脑上。OAuth 令牌存放在本地文件里，不会发往任何第三方服务器；
+    唯一的网络目的地是 Google 自己的接口。
+  </p>
+
+  <h2>Scopes · 申请权限</h2>
+  <p>
+    Only <code>https://mail.google.com/</code> is requested, and only to read the owner's inbox and send
+    mail on their behalf.
+  </p>
+
+  <h2>Links</h2>
+  <p><a href="./privacy.html">Privacy Policy · 隐私权政策</a></p>
+
+  <footer>Contact: syt2094949875@gmail.com</footer>
+</body>
+</html>
